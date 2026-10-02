@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kinjal · AI/ML engineer</title>
+<style>
+:root{--bg:#05030a;--tx:#e9e5f5;--mu:#9a95b3;--ac:#a78bfa;--rd:#dc2626;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html{background:var(--bg);scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.65 ui-monospace,"JetBrains Mono",Menlo,Consolas,monospace;overflow-x:hidden}
+#web{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;opacity:0}
+#web path{fill:none;stroke:#7c5cd6;stroke-width:1;vector-effect:non-scaling-stroke;stroke-dasharray:1;stroke-dashoffset:1}
+#web circle{fill:#f0abfc;animation:pulse 2.6s ease-in-out infinite alternate}
+@keyframes pulse{from{opacity:.25;r:2}to{opacity:1;r:5}}
+main{position:relative;z-index:2}
+section{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:10vh 6vw;max-width:760px}
+h1{margin:0 0 18px;font-size:clamp(56px,13vw,132px);line-height:1;letter-spacing:.04em;background:linear-gradient(90deg,#f5f3ff,#c4b5fd 60%,#f87171);-webkit-background-clip:text;background-clip:text;color:transparent}
+h2{margin:0 0 14px;font-size:clamp(26px,5vw,44px);line-height:1.15;color:#f5f3ff}
+p{margin:0 0 14px;max-width:46ch;color:var(--mu)}
+.hint{color:var(--ac)}
+a{color:var(--ac);text-decoration-color:#5b3fb0;text-underline-offset:4px}
+a:hover{color:#f0abfc}
+code{color:#c4b5fd}
+.links{display:flex;flex-wrap:wrap;gap:22px;margin-top:10px}
+/* spiders */
+.lg{transform-origin:0 0;animation:wa .34s ease-in-out infinite alternate}
+.lb{animation-name:wb}
+@keyframes wa{from{transform:rotate(-7deg)}to{transform:rotate(7deg)}}
+@keyframes wb{from{transform:rotate(7deg)}to{transform:rotate(-7deg)}}
+#cs{position:fixed;left:0;top:0;width:46px;height:46px;margin:-23px 0 0 -23px;pointer-events:none;z-index:50;filter:drop-shadow(0 0 6px #8b5cf6);will-change:transform}
+#cs.still .lg{animation-play-state:paused}
+#tl{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:49}
+#big{position:fixed;left:66%;top:0;height:0;z-index:1;pointer-events:none;opacity:0;transform-origin:50% 0;animation:sway 3.2s ease-in-out infinite alternate}
+#big .th{position:absolute;left:0;top:-10px;width:1px;height:0;background:linear-gradient(#a78bfa55,#a78bfa)}
+#big .bs{position:absolute;left:-80px;top:0;width:160px;height:160px;filter:drop-shadow(0 0 14px #7c3aed)}
+@keyframes sway{from{transform:rotate(-3deg)}to{transform:rotate(3deg)}}
+@media (prefers-reduced-motion:reduce){.lg,#web circle,#big{animation:none}}
+</style>
+</head>
+<body>
+
+<svg id="web" viewBox="0 0 1000 1000" preserveAspectRatio="xMaxYMin slice" aria-hidden="true"></svg>
+<div id="big" aria-hidden="true"><div class="th"></div><div class="bs"></div></div>
+<svg id="tl" aria-hidden="true"><line id="tline" stroke="#a78bfa" stroke-opacity=".4" stroke-width="1"/></svg>
+<div id="cs" aria-hidden="true"></div>
+
+<main>
+  <section>
+    <h1>Kinjal</h1>
+    <p>AI/ML engineer and CS student. I build LLM systems and the backends that keep them running.</p>
+    <p class="hint">Move your cursor. Something is following it. Then scroll.</p>
+  </section>
+  <section>
+    <h2>Every project is a node</h2>
+    <p>The threads between them are the tools I keep reusing: Python, FastAPI, SQL and a lot of Git.</p>
+  </section>
+  <section>
+    <h2>SentinelAI</h2>
+    <p>Watches an LLM app in production and alerts when quality drifts. TF-IDF embeddings scored with Isolation Forest and CUSUM, served by FastAPI on Render, stored in Supabase Postgres, with Slack alerts.</p>
+    <p><a href="https://sentinelai24455.streamlit.app/">Open the live demo</a></p>
+  </section>
+  <section>
+    <h2>Contract Risk Analyzer</h2>
+    <p>DistilBERT fine-tuned on CUAD to flag risky clauses across 34 categories (about 75% accuracy). Llama 3.3 70B on Groq explains each one in plain English.</p>
+  </section>
+  <section>
+    <h2>More nodes</h2>
+    <p>Orbital Terrain Scanner, OSINT tooling, and open-source fixes, including a merged PR to <code>arkorlab/arkor</code>.</p>
+  </section>
+  <section>
+    <h2>Pull a thread</h2>
+    <p>The web stays up. Say hello from any of these.</p>
+    <div class="links">
+      <a href="https://github.com/KinjalGoswami68">GitHub</a>
+      <a href="https://x.com/KGoswami70">X</a>
+      <a href="https://www.linkedin.com/in/kinjal-goswami-03738a376">LinkedIn</a>
+    </div>
+  </section>
+</main>
+
+<script>
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
+const ease = t => t * t * (3 - 2 * t);
+
+/* spider markup, drawn facing +x */
+const spider = () => `<svg viewBox="-20 -20 40 40" width="100%" height="100%">
+<g class="lg" stroke="#e9d5ff" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M6,-3 L10,-9 L14,-10"/><path d="M3,-4 L4,-11 L2,-14"/><path d="M0,-4 L-5,-11 L-9,-12"/><path d="M-3,-3 L-10,-8 L-14,-6"/></g>
+<g class="lg lb" stroke="#e9d5ff" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M6,3 L10,9 L14,10"/><path d="M3,4 L4,11 L2,14"/><path d="M0,4 L-5,11 L-9,12"/><path d="M-3,3 L-10,8 L-14,6"/></g>
+<ellipse cx="-4" cy="0" rx="8" ry="5.5" fill="#1a0b2e" stroke="#a78bfa" stroke-width="1.2"/>
+<circle cx="6" cy="0" r="3.8" fill="#1a0b2e" stroke="#a78bfa" stroke-width="1.2"/>
+<circle cx="8.6" cy="-1.3" r=".9" fill="#ef4444"/><circle cx="8.6" cy="1.3" r=".9" fill="#ef4444"/>
+<path d="M-8,-2 L-2,0 L-8,2" stroke="#dc2626" stroke-width="1" fill="none"/></svg>`;
+
+const cs = document.getElementById('cs');
+const big = document.getElementById('big');
+const bs = big.querySelector('.bs');
+const th = big.querySelector('.th');
+const tline = document.getElementById('tline');
+cs.innerHTML = spider();
+bs.innerHTML = spider();
+
+/* build the web */
+const web = document.getElementById('web');
+const hx = 800, hy = 170, N = 16, step = Math.PI * 2 / N;
+const pt = (a, r) => `${(hx + Math.cos(a) * r).toFixed(1)} ${(hy + Math.sin(a) * r).toFixed(1)}`;
+let html = '';
+for (let i = 0; i < N; i++) html += `<path class="r" pathLength="1" d="M${hx} ${hy}L${pt(i * step, 1500)}"/>`;
+for (let k = 1; k <= 9; k++) {
+  let d = `M${pt(0, k * 100)}`;
+  for (let i = 0; i < N; i++) d += `Q${pt((i + .5) * step, k * 90)} ${pt((i + 1) * step, k * 100)}`;
+  html += `<path class="g" pathLength="1" d="${d}"/>`;
+}
+for (let k = 1; k <= 9; k++) for (let i = 0; i < N; i++) {
+  if ((i * 3 + k * 5) % 7 === 0) {
+    const [cx, cy] = pt(i * step, k * 100).split(' ');
+    html += `<circle cx="${cx}" cy="${cy}" r="3" style="animation-delay:${((i + k) % 5) * .4}s"/>`;
+  }
+}
+web.innerHTML = html;
+const radials = web.querySelectorAll('.r'), rings = web.querySelectorAll('.g');
+
+/* cursor spider */
+let mx = innerWidth / 2, my = innerHeight * .6, x = mx, y = my, ang = 0, tgt = 0;
+addEventListener('pointermove', e => { mx = e.clientX; my = e.clientY; }, { passive: true });
+
+function frame() {
+  const dx = mx - x, dy = my - y, d = Math.hypot(dx, dy);
+  if (reduce) { x = mx; y = my; } else { x += dx * .11; y += dy * .11; }
+  if (d > 6) tgt = Math.atan2(dy, dx);
+  const da = ((tgt - ang + Math.PI * 3) % (Math.PI * 2)) - Math.PI;
+  ang += da * .18;
+  cs.style.transform = `translate3d(${x}px,${y}px,0) rotate(${ang}rad)`;
+  cs.classList.toggle('still', d < 4);
+  tline.setAttribute('x1', x); tline.setAttribute('y1', y);
+  tline.setAttribute('x2', mx); tline.setAttribute('y2', my);
+
+  /* scroll scenes, measured in screens scrolled */
+  const s = scrollY / innerHeight;
+  const web1 = ease(clamp((s - .15) / .75)) * (1 - clamp((s - 1.5) / .6));
+  const web2 = ease(clamp((s - 4.1) / .8));
+  const w = Math.max(web1, web2);
+  radials.forEach(p => p.style.strokeDashoffset = 1 - clamp(w * 1.7));
+  rings.forEach(p => p.style.strokeDashoffset = 1 - clamp(w * 1.7 - .7));
+  web.style.opacity = clamp(w * 3);
+
+  const q = clamp((s - 2.3) / 2.2);
+  const t = 1 - Math.abs(2 * q - 1);
+  const by = ease(t) * innerHeight * .5;
+  big.style.opacity = clamp(t * 4);
+  th.style.height = by + 'px';
+  bs.style.transform = `translateY(${by - 80}px) rotate(90deg)`;
+
+  requestAnimationFrame(frame);
+}
+frame();
+</script>
+</body>
+</html>
