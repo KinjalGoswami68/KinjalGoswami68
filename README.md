@@ -1,31 +1,6 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:000000,50:2e1065,100:991b1b&text=KINJAL&fontColor=e9d5ff&fontSize=68&fontAlignY=38&desc=AI%20%2F%20ML%20ENGINEER%20%C2%B7%20WEB%20CRAWLER%20OF%20IDEAS&descSize=16&descAlignY=60&animation=fadeIn" alt="Kinjal - AI/ML engineer header" width="100%" />
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3200&pause=1100&color=A78BFA&center=true&vCenter=true&width=640&height=40&lines=Crawling+the+web+of+models%2C+data+%26+tools;Building+LLM+systems+that+actually+ship;RAG+%C2%B7+Agents+%C2%B7+GenAI+%C2%B7+Backend;Indexing+one+new+node+every+day" alt="Typing animation" />
-
+<img src="https://raw.githubusercontent.com/KinjalGoswami68/KinjalGoswami68/main/assets/hero.svg" alt="Kinjal - AI/ML engineer" width="100%" />
 </div>
-
-```text
-                  |
-                  |
-             --/(o o)\--
-             --\(   )/--
-              / /(_)\ \
-
-          \       |       /
-      o----o------o------o----o
-       \    \     |     /    /
-        \    \    |    /    /
-  o------o----o---@---o----o------o
-        /    /    |    \    \
-       /    /     |     \    \
-      o----o------o------o----o
-          /       |       \
-
-kinjal@web:~$ ./crawl --target "AI/ML" --depth infinite
-[ok] spider online. 1 root node, many threads, still expanding.
-```
 
 <br/>
 
@@ -34,13 +9,13 @@ kinjal@web:~$ ./crawl --target "AI/ML" --depth infinite
 ```text
 identity   : CS student / AI-ML engineer in the making
 mode       : building practical AI systems, in public
-session    : AI/ML Intern @ DataFlirt
+session    : AI/ML Intern @ a Bangalore-based startup
 interests  : Machine Learning · LLMs · GenAI · RAG · AI Agents · Backend systems
 learning   : DSA · ML engineering · production AI
 contributes: open source
 ```
 
-<br/>
+<img src="https://raw.githubusercontent.com/KinjalGoswami68/KinjalGoswami68/main/assets/divider.svg" width="100%" alt="" />
 
 ## > currently_crawling
 
@@ -51,7 +26,7 @@ contributes: open source
 | DSA + C++ | `queued, daily` | Strong fundamentals keep every other layer fast and clean. |
 | Open source | `crawling` | Reading real codebases and shipping fixes upstream. |
 
-<br/>
+<img src="https://raw.githubusercontent.com/KinjalGoswami68/KinjalGoswami68/main/assets/divider.svg" width="100%" alt="" />
 
 ## > the_web
 
@@ -134,7 +109,7 @@ flowchart TD
 
 </div>
 
-<br/>
+<img src="https://raw.githubusercontent.com/KinjalGoswami68/KinjalGoswami68/main/assets/divider.svg" width="100%" alt="" />
 
 ## > featured_node: SentinelAI
 
@@ -161,7 +136,7 @@ SentinelAI watches an LLM application in production and flags quality drift befo
 </tr>
 </table>
 
-<br/>
+<img src="https://raw.githubusercontent.com/KinjalGoswami68/KinjalGoswami68/main/assets/divider.svg" width="100%" alt="" />
 
 ## > other_nodes
 
@@ -214,7 +189,7 @@ Smaller experiments, notebooks and builds live in my repositories.
 </tr>
 </table>
 
-<br/>
+<img src="https://raw.githubusercontent.com/KinjalGoswami68/KinjalGoswami68/main/assets/divider.svg" width="100%" alt="" />
 
 ## > active_session
 
@@ -222,13 +197,11 @@ Smaller experiments, notebooks and builds live in my repositories.
 $ crawl --session active
 
 role    : AI/ML Intern
-org     : DataFlirt · Bangalore, India
-focus   : [LLM features, RAG pipelines, agents, backend APIs]
+org     : YOUR_STARTUP_NAME · Bangalore, India
+focus   : [what you build there: LLM features, RAG pipelines, agents, backend APIs]
 stack   : [Python · FastAPI · ... edit to match]
 status  : in progress
 ```
-
-<br/>
 
 ## > open_source_threads
 
@@ -237,22 +210,20 @@ status  : in progress
 | [arkorlab/arkor](https://github.com/arkorlab/arkor/pull/212) | PR #212, a port-fallback fix in the CLI | `merged` |
 | [YOUR_ORG/YOUR_REPO](https://github.com/YOUR_ORG/YOUR_REPO) | [short description] | `open` |
 
-<br/>
+<img src="https://raw.githubusercontent.com/KinjalGoswami68/KinjalGoswami68/main/assets/divider.svg" width="100%" alt="" />
 
 ## > telemetry
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=KinjalGoswami68&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&icon_color=dc2626&count_private=true" height="165" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KinjalGoswami68&layout=compact&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9" height="165" alt="Top languages" />
+<img src="https://github-readme-stats.vercel.app/api?username=KinjalGoswami68&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&icon_color=dc2626&count_private=true" width="49%" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KinjalGoswami68&layout=compact&hide=html&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9" width="49%" alt="Top languages" />
 
-<img src="https://streak-stats.demolab.com?user=KinjalGoswami68&hide_border=true&background=0d1117&ring=8b5cf6&fire=dc2626&currStreakLabel=a78bfa&sideLabels=c9d1d9&currStreakNum=e9d5ff&sideNums=e9d5ff&dates=8b949e" alt="Streak stats" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=KinjalGoswami68&bg_color=0d1117&color=a78bfa&line=8b5cf6&point=dc2626&area=true&area_color=2e1065&hide_border=true&custom_title=Crawl%20activity" alt="Contribution activity graph" width="95%" />
+<img src="https://streak-stats.demolab.com?user=KinjalGoswami68&hide_border=true&background=0d1117&ring=8b5cf6&fire=dc2626&currStreakLabel=a78bfa&sideLabels=c9d1d9&currStreakNum=e9d5ff&sideNums=e9d5ff&dates=8b949e" width="98%" alt="Streak stats" />
 
 </div>
 
-<br/>
+<img src="https://raw.githubusercontent.com/KinjalGoswami68/KinjalGoswami68/main/assets/divider.svg" width="100%" alt="" />
 
 ## > frontier_nodes
 
@@ -260,10 +231,9 @@ status  : in progress
 [queued]  LLM evaluation + observability     (taking SentinelAI further)
 [queued]  Agent workflows and tool use
 [queued]  Retrieval quality in RAG systems
-[daily ]  DSA practice in C++
+[daily ]  DSA practice in C++ and Python
+[queued]  GSoC 2027 preparation
 ```
-
-<br/>
 
 ## > open_connection
 
@@ -276,11 +246,9 @@ status  : in progress
 
 </div>
 
-<br/>
+<img src="https://raw.githubusercontent.com/KinjalGoswami68/KinjalGoswami68/main/assets/divider.svg" width="100%" alt="" />
 
 ```text
 kinjal@web:~$ ./crawl --status
 [ok] connection closed. the web stays alive and the spider keeps crawling.
 ```
-
-<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:991b1b,55:2e1065,100:000000" alt="footer" width="100%" />
