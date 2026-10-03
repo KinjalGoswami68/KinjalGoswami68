@@ -155,7 +155,7 @@ SentinelAI watches an LLM application in production and flags quality drift befo
 </td>
 <td width="40%" align="center" valign="middle">
 
-<a href="https://github.com/KinjalGoswami68/YOUR_SENTINELAI_REPO">
+<a href="https://github.com/KinjalGoswami68/-SentinelAI">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=KinjalGoswami68&repo=YOUR_SENTINELAI_REPO&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&icon_color=dc2626&border_color=30363d&show_owner=false" alt="SentinelAI repo card" />
 </a>
 
@@ -173,7 +173,7 @@ SentinelAI watches an LLM application in production and flags quality drift befo
 
 **Contract Risk Analyzer**
 
-DistilBERT fine-tuned on the CUAD dataset to classify contract clauses across 34 risk categories (~75% accuracy). Llama 3.3 70B on Groq explains each flagged clause in plain English. The frontend is Streamlit.
+DistilBERT fine-tuned on the CUAD dataset to classify contract clauses across 34 risk categories. Llama 3.3 70B on Groq explains each flagged clause in plain English. The frontend is Streamlit.
 
 `DistilBERT` · `CUAD` · `Groq` · `Streamlit`
 
@@ -184,9 +184,9 @@ DistilBERT fine-tuned on the CUAD dataset to classify contract clauses across 34
 
 **Orbital Terrain Scanner**
 
-[1-2 lines: what it scans, what data or imagery it uses, and what it outputs.]
+[ResNet18 fine-tuned on the EuroSAT dataset to classify Sentinel-2 satellite imagery and dynamically mask non-geological terrain (91.8% validation accuracy). A Scikit-Learn Isolation Forest processes localized NURE radiometric data (eU/eTh, eU/K ratios) to mathematically detect chemical anomalies, validated against USGS MRDS ground-truth deposits via a spatial join. The frontend is built in Streamlit.]
 
-`[tech]` · `[tech]` · `[tech]`
+`[PyTorch]` · `[Scikit-Learn]` · `[Streamlit]`
 
 [Repository](https://github.com/KinjalGoswami68/terrain-web-app)
 
@@ -213,10 +213,9 @@ Smaller experiments, notebooks and builds live in my repositories. [Browse all r
 
 **HonmaruAI: Web Client Auth & Real-Time Sync**
 
-August 2026 · Cloudflare Workers · [Merged PR #10](https://github.com/Torutesu/HonmaruAI/pull/10)
+ Cloudflare Workers · [Merged PR](https://github.com/Torutesu/HonmaruAI/pull/10)
 
 - Turned the reference web client into a real signed-in client: session-token auth, a browser create/decide flow reaching the WebSocket relay, and a CORS fix that unblocked all browser API calls.
-- Iterated through multiple rounds of maintainer review, closing authorization gaps the review surfaced (org-membership checks, invite-role validation, identity uniqueness) and adding a test for each fix before merge.
 
 </td>
 </tr>
