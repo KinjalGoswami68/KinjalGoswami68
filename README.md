@@ -156,7 +156,7 @@ SentinelAI watches an LLM application in production and flags quality drift befo
 <td width="40%" align="center" valign="middle">
 
 <a href="https://github.com/KinjalGoswami68/-SentinelAI">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=KinjalGoswami68&repo=YOUR_SENTINELAI_REPO&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&icon_color=dc2626&border_color=30363d&show_owner=false" alt="SentinelAI repo card" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=KinjalGoswami68&repo=https://github.com/KinjalGoswami68/-SentinelAI&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&icon_color=dc2626&border_color=30363d&show_owner=false" alt="SentinelAI repo card" />
 </a>
 
 </td>
